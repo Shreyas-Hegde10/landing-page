@@ -13,10 +13,12 @@ function App() {
   })
 
   return(
-    <div className='bg-indigo-50 h-screen flex flex-col'>
+    <div className='bg-indigo-50 min-h-screen flex flex-col'>
       <Header />
       <Main /> 
-      {cards}
+      <div className="flex flex-col max-w-4xl mx-auto justify-between gap-y-2 sm:gap-x-5 sm:flex-row">
+        {cards}
+      </div>
     </div>
   )
 } 
