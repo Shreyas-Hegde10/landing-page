@@ -13,7 +13,7 @@ function App() {
   })
 
   return(
-    <div className='bg-indigo-50 min-h-screen flex flex-col'>
+    <div className='bg-indigo-50 min-h-screen flex flex-col min-w-screen overflow-x-hidden'>
       <Header />
       <Main /> 
       <div className="flex flex-col max-w-4xl mx-auto justify-between gap-y-2 sm:gap-x-5 sm:flex-row">
