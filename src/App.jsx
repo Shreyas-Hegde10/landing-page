@@ -1,7 +1,8 @@
 import Header from './components/Header.jsx'
 import Main from './components/Main.jsx' 
 import Card from  './components/Card.jsx' 
-import cardData from './cardData.js'
+import cardData from './cardData.js' 
+import Form from './components/Form.jsx'
 
 function App() {
   const cards = cardData.map((card) => {
@@ -18,7 +19,8 @@ function App() {
       <Main /> 
       <div className="flex flex-col max-w-4xl mx-auto justify-between gap-y-2 sm:gap-x-5 sm:flex-row">
         {cards}
-      </div>
+      </div> 
+      <Form />
     </div>
   )
 } 
